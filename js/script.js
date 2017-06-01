@@ -38,6 +38,9 @@ var integer = function() {
 	var numChar = sentence.length-1 /2;
 	var position = sentence.charAt(numChar);
 	var ended = position + sentence;
+	return ended;
 }
 var final = integer(sentence);
+final
 alert(final);
+console.log(final)
